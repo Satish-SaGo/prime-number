@@ -4,9 +4,8 @@ using namespace std;
     int main()
 {
  int n;int i,m; 
- //m=sqrt(n);
  cin>>n;
- for(i=2;i<=sqrt(n);i++)
+ for(i=2;i*i<=(n);i++)
     if(n%i==0)
     {
       cout<<"not a prime";
